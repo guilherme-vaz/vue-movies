@@ -36,7 +36,7 @@ export default {
 }
 
 body {
-  background-color: #8f3b76;
+  background-color: #35495E;
 }
 
 a {
@@ -44,6 +44,21 @@ a {
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: #2C3D4E;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 28px;
+}
+
+header span {
+  color: #1ac0c6;
 }
 </style>

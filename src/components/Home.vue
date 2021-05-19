@@ -86,24 +86,7 @@ export default {
 };
 </script>
 
-<style >
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 16px;
-  background-color: #8f3b76;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-  color: #fff;
-  font-size: 28px;
-}
-
-header span {
-  color: #1ac0c6;
-}
+<style scoped>
 
 .home .feature-card {
   position: relative;
@@ -158,7 +141,7 @@ header span {
 .search-box input[type="text"] {
   width: 100%;
   color: #fff;
-  background-color: #c7417b;
+  background-color: #496583;
   font-size: 20px;
   padding: 10px 16px;
   border-radius: 8px;
@@ -177,7 +160,7 @@ header span {
 .search-box input[type="submit"] {
   widows: 100%;
   max-width: 300px;
-  background-color: #1ac0c6;
+  background-color: #42B883;
   padding: 1rem;
   border-radius: 8px;
   color: #fff;
@@ -187,7 +170,7 @@ header span {
 }
 
 .search-box input[type="submit"]:active {
-  background-color: #3b8070;
+  background-color: #3B8070;
 }
 
 .movies-list {
@@ -223,7 +206,7 @@ header span {
 .product-img .type {
   position: absolute;
   padding: 8px 16px;
-  background-color: #42b883;
+  background-color: #42B883;
   color: #fff;
   bottom: 16px;
   left: 0;
@@ -231,7 +214,7 @@ header span {
 }
 
 .detail {
-  background-color: #e74645;
+  background-color: #496583;
   padding: 16px 8px;
   flex: 1 1 100%;
   border-radius: 0px 0px 8px 8px;
